@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    padding: 10px;
+    color: white;
+    background-color: rgb(1, 1, 99);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav a{
+    color: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+.content{
+    display: flex;
+}
+.football{
+    width: 500px;
+    padding: 3px;
+    height: 100vh;
+    border: 1px solid rgb(180, 180, 180);
+}
+.football img{
+    height: 300px;
+    object-fit: cover;
+}
+.basketball{
+    width: 500px;
+    padding: 3px;
+    height: 100vh;
+    border: 1px solid rgb(180, 180, 180);
+}
+.basketball img{
+    height: 500px;
+    object-fit: cover;
+    border: 3px solid black;
+}
+.tennis{
+    width: 500px;
+    padding: 3px;
+    height: 100vh;
+    border: 1px solid rgb(180, 180, 180);
+}
+.tennis img{
+height: 200px;
+}
