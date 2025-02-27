@@ -1,0 +1,55 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(36, 36, 36);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+}
+header a.active{
+   color: rgb(255, 67, 67);
+   text-decoration: underline;
+}
+header a:hover{
+   color: rgb(255, 67, 67);
+}
+.logo{
+    color: red;
+    font-weight: bold;
+    font-size: 35px;
+}
+.title{
+    font-size: 50px;
+    color: white;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+select{
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgb(70, 70, 70);
+    border: none;
+    color: rgb(165, 164, 164);
+}
+.top2 a{
+    margin: 7px;
+    color: white;
+}
+.grid{
+    border-bottom: 2px solid red;
+}
