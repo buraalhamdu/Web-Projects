@@ -53,3 +53,145 @@ select{
 .grid{
     border-bottom: 2px solid red;
 }
+.p2{
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.tvshows{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 15px;
+    padding: 15px;
+}
+.a{
+    width: 400px;
+    height: 230px;
+    background: url(assets/t1.png);
+    transition: all 0.3s;
+    border-radius: 3px;
+    font-weight: 600;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+}
+.a:hover{
+    width: 400px;
+    height: 230px;
+    border-radius: 3px;
+    background: linear-gradient(rgba(46, 46, 46, 0.521), rgba(0,0,0.08)),url(assets/t1.png);
+    color: rgb(255, 255, 255);
+    background-size: contain;
+}
+.b{
+    width: 400px;
+    height: 230px;
+    background: url(assets/t2.png);
+    transition: all 0.3s;
+    border-radius: 3px;
+    font-weight: 600;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+}
+.b:hover{
+    width: 400px;
+    height: 230px;
+    border-radius: 3px;
+    background: linear-gradient(rgba(46, 46, 46, 0.521), rgba(0,0,0.08)),url(assets/t2\.png);
+    color: rgb(255, 255, 255);
+    background-size: contain;
+}
+
+.c{
+    width: 400px;
+    height: 230px;
+    background: url(assets/t1.png);
+    transition: all 0.3s;
+    border-radius: 3px;
+    font-weight: 600;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+}
+.c:hover{
+    width: 400px;
+    height: 230px;
+    border-radius: 3px;
+    background: linear-gradient(rgba(46, 46, 46, 0.521), rgba(0,0,0.08)),url(assets/t1.png);
+    color: rgb(255, 255, 255);
+    background-size: contain;
+}
+
+.d{
+    width: 400px;
+    height: 230px;
+    background: url(assets/t1.png);
+    transition: all 0.3s;
+    border-radius: 3px;
+    font-weight: 600;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+}
+.d:hover{
+    width: 400px;
+    height: 230px;
+    border-radius: 3px;
+    background: linear-gradient(rgba(46, 46, 46, 0.521), rgba(0,0,0.08)),url(assets/t1.png);
+    color: rgb(255, 255, 255);
+    background-size: contain;
+}
+
+.e{
+    width: 400px;
+    height: 230px;
+    background: url(assets/t1.png);
+    transition: all 0.3s;
+    border-radius: 3px;
+    font-weight: 600;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+}
+.e:hover{
+    width: 400px;
+    height: 230px;
+    border-radius: 3px;
+    background: linear-gradient(rgba(46, 46, 46, 0.521), rgba(0,0,0.08)),url(assets/t1.png);
+    color: rgb(255, 255, 255);
+    background-size: contain;
+}
+
+.f{
+    width: 400px;
+    height: 230px;
+    background: url(assets/t1.png);
+    transition: all 0.3s;
+    border-radius: 3px;
+    font-weight: 600;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+}
+.f:hover{
+    width: 400px;
+    height: 230px;
+    border-radius: 3px;
+    background: linear-gradient(rgba(46, 46, 46, 0.521), rgba(0,0,0.08)),url(assets/t1.png);
+    color: rgb(255, 255, 255);
+    background-size: contain;
+}
+
